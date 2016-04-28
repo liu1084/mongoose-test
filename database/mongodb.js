@@ -10,7 +10,7 @@ var db = {}, connectionString = '';
 connectionString = dbConfig.protocol + '://'
     + dbConfig.hostname + ':'
     + dbConfig.port + '/'
-    + dbConfig.database;;
+    + dbConfig.database;
 function connect() {
     //FIXME!!!
     mongoose.connect(connectionString);
